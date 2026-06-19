@@ -10,12 +10,24 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    height: 100vh;
+    height: 95.5vh;
     gap: 0;
+    border: black solid 1px;
 }
 
 .square {
     aspect-ratio: 1;
-    flex-basis: 6.25%;
-    border: red solid 2px;
+}
+
+.hover {
+    background-color: black;
+}
+
+button {
+    height: 3.5vh;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: lightblue;
+    border: 0px;
+    margin-bottom: 1vh;
 }
