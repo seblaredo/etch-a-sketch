@@ -2,8 +2,13 @@ const container = document.querySelector(".container");
 const button = document.querySelector("button");
 setGrid(16);
 container.addEventListener('mouseover', (e)=>{
+    let red = Math.floor(Math.random()*255+1);
+    let green = Math.floor(Math.random()*255+1);
+    let blue = Math.floor(Math.random()*255+1);
     let child = e.target.closest(".square");
-    child.classList.add("hover");
+    //child.classList.add("hover");
+    //child.style.backgroudColor = `rgb(${red}, ${green}, ${blue})`;
+    child.style.backgroundColor = "rgb(10, 0, 0)";
 })
 
 // container.addEventListener('mouseout', (e)=>{
