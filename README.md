@@ -1,2 +1,2 @@
 # etch-a-sketch
-Etch-a-sketch demo in js
+A simple etch a sketch like webpage for drawing! Includes random colors or just black, and a customizable grid size.
