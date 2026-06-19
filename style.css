@@ -17,10 +17,11 @@
 
 .square {
     aspect-ratio: 1;
+    opacity: 0.0;
 }
 
 .hover {
-    
+    background-color: black;
 }
 
 button {
