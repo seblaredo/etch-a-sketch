@@ -3,13 +3,13 @@ const button = document.querySelector("button");
 setGrid(16);
 container.addEventListener('mouseover', (e)=>{
     let child = e.target.closest(".square");
-    child.classList.toggle("hover");
+    child.classList.add("hover");
 })
 
-container.addEventListener('mouseout', (e)=>{
-    let child = e.target.closest(".square");
-    child.classList.toggle("hover");
-})
+// container.addEventListener('mouseout', (e)=>{
+//     let child = e.target.closest(".square");
+//     child.classList.toggle("hover");
+// })
 
 button.addEventListener('click', (e)=>{
     let size = prompt("Input size of grid:");
